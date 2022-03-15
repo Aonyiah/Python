@@ -1,0 +1,13 @@
+gradebook = [["physics", 98], ["calculus", 97], ["poetry", 85], ["history", 88]]
+
+subject = input("Enter Subject: ")
+if subject == "":
+  print("Please enter a subject")
+
+grade = int(input("Enter Grade: "))
+if grade == "":
+  print("Please enter your grade")
+else:
+  update = [subject, grade]
+  gradebook.append(update)
+  print(gradebook)
